@@ -108,10 +108,15 @@ Baby.prototype.play = function(favoriteToy){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+
+  1. implicit-most common (80%) and references what is to the left of the dot at call time
+
+  2. explicit-directly telling a fxn what the context of the .this keyword  will be using .call .apply or .bind
+
+  3. new- function invoked with the new. keyword
+
+  4. window -.this defaults to window/console object in no other rules applies, can cause bugs and is unusable in strict mode
+
 */
 
 
